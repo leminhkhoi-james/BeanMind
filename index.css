@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+section .banner__img {
+  width: 100%;
+  object-fit: cover;
+  width: 1443.85px;
+  height: 469.812px;
+}
+section.banner {
+  display: flex;
+}
+.banner__side {
+  background-color: #b11116;
+  width: 92.15px;
+  height: 469.812px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.introduce .introduce__desc {
+  text-align: center;
+  margin-top: 50px;
+}
+.introduce .introduce__desc p {
+  margin: 0 auto;
+  line-height: 21px;
+}
+.introduce .introduce__desc h1 {
+  font-size: 40px;
+  font-weight: bold;
+  width: 1180px;
+  height: 52px;
+  margin: 0 auto;
+}
+.introduce .introduce__item {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  position: relative;
+}
+/* .introduce .introduce__item::before {
+  content: "01";
+  position: absolute;
+  top: -45px;
+  left: 100px;
+} */
+
+.introduce .introduce__item p {
+  width: 433.4px;
+  height: 210.4px;
+  padding: 45px;
+  border: 1px solid #092f46;
+  border-radius: 10px;
+  max-width: 528px;
+  font-size: 14px;
+  height: fit-content;
+}
+.introduce .introduce__item p strong {
+  font-size: 18px;
+  font-weight: bold;
+}
+.introduce .introduce__item img {
+  width: 525px;
+  height: 371px;
+}
+.introduce img:first-of-type {
+  position: relative;
+  z-index: 2;
+}
+/* .introduce img:first-of-type img::after {
+  position: absolute;
+  content: "";
+  border-radius: 60px 60px 0 0;
+  width: 118px;
+  height: 117px;
+  z-index: 4;
+  right: -50px;
+  bottom: -59px;
+  background: #ffdd00;
+  transform: rotate(-180deg);
+} */
+
+.value {
+  display: flex;
+  margin-top: 100px;
+}
+
+.value .value__pic {
+  background-image: url(https://mathnasium.edu.vn/wp-content/uploads/2022/11/Frame-18637-1.png);
+  width: 748px;
+  height: 638px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.value .value__pic img:first-of-type {
+  width: 401px !important;
+  height: 399px !important  ;
+  position: relative;
+}
+.value .value__pic img:nth-of-type(2) {
+  width: 130px;
+  height: 140px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+.value .value__pic img:nth-of-type(3) {
+  width: 130px;
+  height: 140px;
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+.value .value__pic img:nth-of-type(4) {
+  width: 130px;
+  height: 140px;
+  position: absolute;
+}
+.value .value__pic img:nth-of-type(5) {
+  width: 90px;
+  height: 105px;
+  position: absolute;
+}
+.value .value__pic img:nth-of-type(6) {
+  width: 90px;
+  height: 105px;
+  position: absolute;
+}
+.value .value__pic img:nth-of-type(7) {
+  width: 90px;
+  height: 105px;
+  position: absolute;
+}
+
+.value .value__desc {
+  background-image: url(https://mathnasium.edu.vn/wp-content/uploads/2022/11/Group-18867-1-1.png);
+  width: calc(100% - 748px);
+  height: 638px;
+  padding: 85px 95px 75px 88px;
+}
+.value .value__desc h2 {
+  font-size: 40px;
+  width: 605px;
+  word-wrap: break-word;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 52px;
+}
+.value .value__desc p {
+  font-size: 18px;
+  width: 605px;
+  height: 182px;
+  color: white;
+  line-height: 26px;
+  margin-bottom: 24px;
+  word-wrap: break-word;
+}
